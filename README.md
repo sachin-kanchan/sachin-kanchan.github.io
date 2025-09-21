@@ -102,7 +102,7 @@ Here is a selection of my work, demonstrating my ability to translate data into 
 
 <div class="project-highlight" markdown="1">
 
-### 📈 Algorithmic Trading Strategy (Private Project)
+### 📈 Algorithmic Trading Strategy for Nifty100
 
 - Designed and backtested a high-performance algorithmic trading model on Nifty 100 stocks using quantitative and predictive analytics
 - Leveraged a combination of technical indicators for precise market timing and evaluated resilience using Sharpe ratio and drawdown analysis
