@@ -1,0 +1,165 @@
+---
+---
+
+@import "jekyll-theme-minimal";
+
+/* override the narrow width of jekyll-theme-minimal */
+.wrapper {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* make the main content area wider */
+section {
+  width: 70%;
+  float: right;
+  padding-bottom: 50px;
+}
+
+/* adjust the sidebar */
+header {
+  width: 25%;
+  float: left;
+  position: fixed;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+/* responsive design for mobile */
+@media print, screen and (max-width: 960px) {
+  div.wrapper {
+    width: auto;
+    margin: 0;
+  }
+  
+  header, section, footer {
+    float: none;
+    position: static;
+    width: auto;
+  }
+  
+  header {
+    padding-right: 320px;
+  }
+  
+  section {
+    border: 1px solid #e5e5e5;
+    border-width: 1px 0;
+    padding: 20px 0;
+    margin: 0 0 20px;
+  }
+}
+
+@media print, screen and (max-width: 720px) {
+  body {
+    word-wrap: break-word;
+  }
+  
+  header {
+    padding: 0;
+  }
+  
+  header ul, header p.view {
+    position: static;
+  }
+  
+  pre, code {
+    word-wrap: normal;
+  }
+}
+
+/* improve spacing and readability */
+h1, h2, h3 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+}
+
+/* project highlight boxes */
+.project-highlight {
+  margin: 25px 0;
+  padding: 20px;
+  border-left: 4px solid #0366d6;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.project-highlight h3 {
+  margin-top: 0;
+  color: #0366d6;
+}
+
+/* metric highlighting */
+.metric-highlight {
+  background-color: #fff3cd;
+  padding: 2px 6px;
+  border-radius: 3px;
+  color: #856404;
+}
+
+/* tech stack section styling */
+.tech-stack-section {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.tech-stack-section h3 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  color: #2c3e50;
+}
+
+/* social links styling */
+div[align="center"] img {
+  margin: 2px;
+  transition: transform 0.2s;
+}
+
+div[align="center"] img:hover {
+  transform: scale(1.05);
+}
+
+/* code block improvements */
+pre {
+  background: #f6f8fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+}
+
+/* quote section styling */
+.quote-section {
+  margin: 40px 0;
+  padding: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 8px;
+  font-size: 1.1em;
+}
+
+/* improve list styling */
+ul li {
+  margin-bottom: 0.5em;
+}
+
+/* better spacing for work experience */
+section > p {
+  margin-bottom: 1.2em;
+}
+
+/* improve table of contents and navigation */
+header h1 {
+  margin-bottom: 20px;
+}
+
+header p {
+  margin-bottom: 15px;
+}

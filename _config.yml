@@ -1,0 +1,12 @@
+theme: jekyll-theme-minimal
+title: "Sachin's Portfolio"
+description: "Data Analytics | Machine Learning | AI"
+baseurl: ""
+url: "https://sachin-kanchan.github.io"
+
+author:
+  name: "Sachin Kanchan"
+  email: "sachin.py@outlook.com"
+
+github_username: sachin-kanchan
+linkedin_username: sachinkanchan
